@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    padding: 20px;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+a{
+    padding: 5px;
+    background: green;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid black;
+    box-shadow: 2px solid gray;
+    color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 1000px;
+}
+
+.answer2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    margin: 20px;
+    font-size: 2em;
+    color: white;
+}
